@@ -2,6 +2,9 @@
 <div>
   <img alt="Vue logo" src="./assets/logo.png" />
   <Ly />
+  <router-link to="/">Home</router-link> 
+  <!-- <router-link to="/contact">Contact</router-link> -->
+  <router-view/>
 </div>
 </template>
 
